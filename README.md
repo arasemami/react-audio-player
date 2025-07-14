@@ -15,7 +15,7 @@ This player uses plain CSS (no Tailwind) for easy integration into any React pro
 
 ## 🚀 Demo
 
-> _Coming soon: add a link or GIF of player running._
+ ![Alt text describing the image](./src/assets/demo-01.png)
 
 ---
 

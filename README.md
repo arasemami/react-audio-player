@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# 🎵 React Audio Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A custom audio player built with **React** and **TypeScript**, featuring:
 
-## Available Scripts
+- Upload audio file and playback
+- Play / Pause toggle
+- Mute / Unmute
+- Seek bar with time display
+- Change playback speed
+- Icons via Iconify
 
-In the project directory, you can run:
+This player uses plain CSS (no Tailwind) for easy integration into any React project.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Demo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> _Coming soon: add a link or GIF of your player running._
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+✅ Upload and play local audio files  
+✅ Play / Pause control  
+✅ Mute / Unmute audio  
+✅ Seek bar with current and total time  
+✅ Change playback speed (0.5x, 1x, 1.5x, 2x)  
+✅ Icon support with [Iconify](https://iconify.design/)  
+✅ Fully written in TypeScript  
+✅ Pure CSS styling (no frameworks required)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone your repository:
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/react-audio-player.git
+cd react-audio-player
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+import React from 'react';
+import AudioPlayer from './components/AudioPlayer';
+
+const App: React.FC = () => {
+    return (
+        <div>
+            <h1>My Audio App</h1>
+            <AudioPlayer />
+        </div>
+    );
+};
+
+export default App;
+
+
+
+
+
+src/
+├── components/
+│   ├── AudioPlayer.tsx
+│   ├── AudioPlayer.css
+│   └── audioEvents.ts
+├── index.tsx
+└── App.tsx

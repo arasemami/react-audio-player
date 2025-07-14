@@ -15,7 +15,7 @@ This player uses plain CSS (no Tailwind) for easy integration into any React pro
 
 ## 🚀 Demo
 
-> _Coming soon: add a link or GIF of your player running._
+> _Coming soon: add a link or GIF of player running._
 
 ---
 
@@ -46,8 +46,11 @@ npm install
 
 
 npm start
+```
 
+## ✨ Usage
 
+```bash
 import React from 'react';
 import AudioPlayer from './components/AudioPlayer';
 
@@ -61,10 +64,10 @@ const App: React.FC = () => {
 };
 
 export default App;
+```
 
 
-
-
+## ✨ Project Structure
 
 src/
 ├── components/

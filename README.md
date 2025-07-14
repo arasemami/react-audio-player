@@ -68,7 +68,7 @@ export default App;
 
 
 ## ✨ Project Structure
-
+```bash
 src/
 ├── components/
 │   ├── AudioPlayer.tsx
@@ -76,3 +76,4 @@ src/
 │   └── audioEvents.ts
 ├── index.tsx
 └── App.tsx
+```
